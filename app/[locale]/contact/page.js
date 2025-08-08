@@ -58,6 +58,7 @@ export async function generateMetadata({ params: { locale } }) {
 export default async function ContactPage({ params: { locale } }) {
   const dict = await getDictionary(locale);
   const { contact } = dict;
+  const buttonLabel = locale === "tr" ? "E-posta Gönder" : "Send Email";
 
   return (
     <ClientLayout>
@@ -221,7 +222,59 @@ export default async function ContactPage({ params: { locale } }) {
               </div>
 
               {/* Contact Form */}
-              <ContactForm contact={contact} />
+              {/**
+               * The interactive form is kept here for future use, but commented out per request
+               * <ContactForm contact={contact} />
+               */}
+              <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 flex flex-col items-center justify-center min-h-[320px]">
+                <h3 className="text-2xl font-bold text-[#1a2e1a] mb-4">
+                  {locale === "tr"
+                    ? "Bize E-posta ile Ulaşın"
+                    : "Contact Us via Email"}
+                </h3>
+                <p className="text-[#54655e] mb-6 text-center max-w-md">
+                  {locale === "tr"
+                    ? "Tercih ederseniz doğrudan e-posta gönderebilirsiniz. Yeni bir sekmede e-posta uygulamanız açılacaktır."
+                    : "Prefer email? Send us a direct message. Your default mail app will open in a new tab."}
+                </p>
+                <a
+                  href={
+                    "mailto:info@futureverde.com?subject=" +
+                    encodeURIComponent(
+                      locale === "tr"
+                        ? "İletişim Talebi - FutureVerde"
+                        : "Contact Inquiry - FutureVerde"
+                    ) +
+                    "&body=" +
+                    encodeURIComponent(
+                      locale === "tr"
+                        ? "Merhaba FutureVerde ekibi,"
+                        : "Hello FutureVerde team,"
+                    )
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold py-3 px-6 rounded-full hover:from-green-700 hover:to-green-800 transition-all duration-200 shadow-md hover:shadow-lg"
+                  aria-label={buttonLabel}
+                >
+                  {/* Icon */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                  <span>{buttonLabel}</span>
+                </a>
+              </div>
             </div>
           </div>
         </section>
