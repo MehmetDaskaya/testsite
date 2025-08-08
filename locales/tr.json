@@ -1,0 +1,560 @@
+{
+  "title": "TEKNOLOJİ ODAKLI SÜRDÜRÜLEBİLİRLİĞİN YOLUNU AÇIYORUZ",
+  "description": "Yenilik ve sürdürülebilirliğe olan bağlılığımız, kapsamlı ESG raporlama ve yeşil finans çözümleri sunmamızı sağlıyor.",
+  "hero": {
+    "title": "TEKNOLOJİ ODAKLI SÜRDÜRÜLEBİLİRLİĞİN YOLUNU AÇIYORUZ",
+    "subtitle": "Yenilik ve sürdürülebilirliğe olan bağlılığımız, kapsamlı ESG raporlama ve yeşil finans çözümleri sunmamızı sağlıyor.",
+    "cta": "Başlayın",
+    "successStories": {
+      "title": "Başarı Hikayelerimizi Görün",
+      "description": "Sürdürülebilirliğe olan bağlılığımızı ve ESG raporlama ve yeşil finansman üzerindeki faydalı etkilerimizi gösteriyoruz."
+    },
+    "stats": {
+      "number": "500+",
+      "label": "Şirket"
+    }
+  },
+  "welcome": {
+    "subtitle": "FUTUREVERDE",
+    "title": "FutureVerde'ye Hoş Geldiniz",
+    "description1": "FutureVerde, sürdürülebilirlik yolunda ileri görüşlü teknoloji ortağınızdır.",
+    "description2": "Akıllı, veri odaklı platformumuz büyük veri, gelişmiş analitik, iş zekası ve yapay zekayı birleştirerek ESG Analizi, Raporlama ve Yeşil Finansman için kapsamlı bir paket sunar.",
+    "description3": "Şirketlerin hem ulusal hem de uluslararası standartları karşılamasına yardımcı olmak için tasarlanan FutureVerde, sürdürülebilirlik raporlamasında şeffaflığı, doğruluğu ve etkiyi artırır. Tahmine dayalı teknolojilerle platformumuz, işletmelerin riskleri öngörmesine, ortaya çıkan fırsatları değerlendirmesine ve gelecek odaklı, stratejik kararlar almasına olanak tanır.",
+    "imageAlt": "Yeşil bacalı endüstriyel tesis",
+    "overlayTitle": "YEŞİL FİNANSMAN VE SÜRDÜRÜLEBİLİRLİK"
+  },
+  "insightDots": {
+    "title": "İçgörü Noktaları",
+    "insights": [
+      {
+        "quote": "ESG vurgusunda %10'luk bir artış, şirket değerinde %1.4'lük bir yükselişle ilişkilidir.",
+        "source": "Wharton, 2024"
+      },
+      {
+        "quote": "Yöneticilerin %75'i sürdürülebilirliğin daha iyi iş sonuçlarına yol açtığına ve %76'sı bunun stratejilerinin merkezinde olduğunu söylüyor.",
+        "source": "IBM, 2024"
+      },
+      {
+        "quote": "Yöneticilerin %75'i organizasyonlarının geçen yıl sürdürülebilirlik yatırımlarını artırdığını belirtiyor.",
+        "source": "Deloitte, 2023"
+      }
+    ],
+    "cta": "Tümünü Gör"
+  },
+  "keyFeatures": {
+    "title": "Temel Özellikler",
+    "subtitle": "FutureVerde'nin Temel Özellikleriyle Sürdürülebilirlik Yolculuğunuzu Dönüştürün",
+    "features": [
+      {
+        "title": "AI Destekli Raporlama",
+        "description": "ESG raporlamasını kullanımı kolay araçlarla kolaylaştırın, doğruluk ve hız sağlayın. AI destekli platformumuz veri toplama, analiz ve rapor oluşturmayı otomatikleştirir, manuel çabayı %80 azaltır.",
+        "achievements": [
+          "Otomatik Veri Toplama",
+          "AI Analizi",
+          "%80 Zaman Tasarrufu"
+        ],
+        "stats": [
+          { "value": "%80", "label": "Zaman Tasarrufu" },
+          { "value": "%100", "label": "AI Destekli" }
+        ]
+      },
+      {
+        "title": "Çok Boyutlu Puanlama ve Karşılaştırma",
+        "description": "Sürdürülebilirlik performansınızı endüstri standartlarıyla ölçün ve karşılaştırın. Çevresel, sosyal ve yönetişim metriklerinde kapsamlı puanlama ve gerçek zamanlı karşılaştırma elde edin.",
+        "achievements": [
+          "Gerçek Zamanlı Karşılaştırma",
+          "ESG Metrikleri",
+          "Endüstri Standartları"
+        ],
+        "stats": [{ "value": "Gerçek Zamanlı", "label": "Güncellemeler" }]
+      },
+      {
+        "title": "Tedarik Zinciri Takibi",
+        "description": "Tüm tedarik zincirinizde izlenebilirlik ve denetim yetenekleri elde edin. Sürdürülebilirlik uygulamalarını izleyin, karbon ayak izini takip edin ve değer ağınız boyunca uyumluluğu sağlayın.",
+        "achievements": [
+          "Uçtan Uca Takip",
+          "Karbon Ayak İzi",
+          "Uyumluluk İzleme"
+        ],
+        "stats": [
+          { "value": "%100", "label": "İzlenebilirlik" },
+          { "value": "7/24", "label": "İzleme" }
+        ]
+      },
+      {
+        "title": "Proaktif Risk ve Fırsat Analizi",
+        "description": "AI destekli içgörülerle gelecekteki sürdürülebilirlik risklerini ve fırsatlarını belirleyin. Tahmine dayalı analitik, stratejik avantaj için düzenleyici değişikliklerin ve pazar trendlerinin önünde kalmanıza yardımcı olur.",
+        "achievements": [
+          "Tahmine Dayalı Analitik",
+          "Risk Değerlendirmesi",
+          "Stratejik İçgörüler"
+        ],
+        "stats": [
+          { "value": "AI", "label": "Destekli" },
+          { "value": "Gelecek", "label": "Odaklı" }
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "solution": "Çözümümüz",
+    "insights": "İçgörüler",
+    "features": "Temel Özellikler",
+    "industries": "Hizmet Verdiğimiz Sektörler",
+    "partnerships": "Ortaklıklar",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "contact": {
+    "title": "FutureVerde ile İletişim - Bize Ulaşın",
+    "description": "ESG raporlama, yeşil finansman ve sürdürülebilirlik çözümleri için FutureVerde ile iletişime geçin. Danışmanlık, ortaklık ve destek için ekibimizle iletişime geçin.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "Bize Ulaşın",
+      "description": "Sürdürülebilirlik yolculuğunuzu dönüştürmeye hazır mısınız? ESG raporlama ve yeşil finansman çözümleri konusunda uzman rehberlik için ekibimizle iletişime geçin."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "subtitle": "Sürdürülebilirlik uzmanlarımızla iletişime geçin",
+      "address": {
+        "title": "Ofis Adresi",
+        "value": "Yıldız Teknopark, Yıldız Teknik Üniversitesi, İstanbul, Türkiye"
+      },
+      "email": {
+        "title": "E-posta Adresi",
+        "value": "info@futureverde.com"
+      },
+      "phone": {
+        "title": "Telefon Numarası",
+        "value": "+90 212 285 99 75"
+      },
+      "hours": {
+        "title": "Çalışma Saatleri",
+        "value": "Pazartesi - Cuma: 09:00 - 18:00 (GMT+3)"
+      }
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "subtitle": "Aşağıdaki formu doldurun, 24 saat içinde size geri döneceğiz",
+      "fields": {
+        "name": "Ad Soyad",
+        "email": "E-posta Adresi",
+        "company": "Şirket Adı",
+        "phone": "Telefon Numarası",
+        "subject": "Konu",
+        "message": "Mesajınız",
+        "submit": "Mesaj Gönder",
+        "sending": "Gönderiliyor...",
+        "success": "Mesaj başarıyla gönderildi!",
+        "error": "Mesaj gönderilirken hata oluştu. Lütfen tekrar deneyin."
+      },
+      "validation": {
+        "required": "Bu alan zorunludur",
+        "email": "Lütfen geçerli bir e-posta adresi girin",
+        "phone": "Lütfen geçerli bir telefon numarası girin"
+      }
+    },
+    "map": {
+      "title": "Bizi Bulun",
+      "subtitle": "Yıldız Teknopark'taki ofisimizi ziyaret edin"
+    }
+  },
+  "cta": {
+    "label": "İletişime Geçin",
+    "title": "Sürdürülebilirlik Platformu",
+    "subtitle": "FUTUREVERDE"
+  },
+  "insights": {
+    "title": "İçgörü Noktaları - FutureVerde Sürdürülebilirlik İçgörüleri",
+    "description": "ESG raporlama, tüketici davranışı ve sürdürülebilir iş uygulamalarının geleceğini şekillendiren temel sürdürülebilirlik içgörülerini ve trendleri keşfedin.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "İçgörü Noktaları",
+      "description": "İş dünyasının geleceğini şekillendiren temel sürdürülebilirlik içgörüleri ve trendleri"
+    },
+    "sections": {
+      "regulatory": {
+        "title": "Değişen Düzenleyici Ortama Uyum",
+        "subtitle": "Düzenlemeler Artıyor",
+        "insights": [
+          {
+            "text": "Dünya çapında 50.000'den fazla şirket, AB'nin Kurumsal Sürdürülebilirlik Raporlama Direktifi kapsamında detaylı ESG verilerini açıklamak zorunda.",
+            "source": "Avrupa Birliği, 2024"
+          },
+          {
+            "text": "Yönetim kurulu üyelerinin %51'i, kurullarının yaklaşan ESG açıklama zorunluluklarını denetlemek için yeterince hazır olduğuna inanıyor — 2022'deki %25'ten yükseliş.",
+            "source": "PwC, 2023"
+          }
+        ]
+      },
+      "consumer": {
+        "title": "Tüketici Davranışı ve Sürdürülebilirlik",
+        "subtitle": "Tüketiciler Yeşile Dönüyor",
+        "insights": [
+          {
+            "text": "Tüketicilerin %46'sı karbon ayak izlerini azaltmak için daha sürdürülebilir ürünler satın aldıklarını bildiriyor.",
+            "source": "PwC, 2024"
+          },
+          {
+            "text": "Yaşam maliyeti endişelerine rağmen, tüketiciler sürdürülebilir kaynaklardan üretilen veya üretilen mallar için ortalama %9.7 daha fazla ödemeye istekli.",
+            "source": "PwC, 2024"
+          }
+        ]
+      },
+      "circular": {
+        "title": "Döngüsel Ekonomi",
+        "subtitle": "Döngüyü Kapatma",
+        "insights": [
+          {
+            "text": "Döngüsel ekonomi uygulamaları, 2030 yılına kadar küresel CO2 emisyonlarını %39 azaltabilir.",
+            "source": "Circle Economy Foundation, 2021"
+          },
+          {
+            "text": "Döngüsel ekonomi ilkeleri uygulandığında, küresel plastik atıkların %80'e kadarı 2040 yılına kadar geri dönüştürülebilir.",
+            "source": "BM Çevre Programı, 2023"
+          }
+        ]
+      },
+      "finance": {
+        "title": "Ekonomik Etki: Sürdürülebilir Finans ve ESG Varlıkları",
+        "subtitle": "Sürdürülebilir Finans Büyüyor",
+        "insights": [
+          {
+            "text": "Küresel sürdürülebilir finans varlıkları 2020'de 35.3 trilyon dolara ulaştı, toplam yönetilen varlıkların %36'sını temsil ediyor.",
+            "source": "Global Sustainable Investment Alliance, 2021"
+          },
+          {
+            "text": "ESG odaklı fonlar 2020'de 51.1 milyar dolar net akış çekti, 2019'dan %96 artış.",
+            "source": "Morningstar, 2021"
+          }
+        ]
+      },
+      "business": {
+        "title": "Sürdürülebilirlik Yoluyla İş Sonuçlarını Sürükleme",
+        "subtitle": "Daha İyi İş Sonuçları Geliyor",
+        "insights": [
+          {
+            "text": "Sürdürülebilirlikte etkili bir şekilde öncülük eden işletmeler, riski azaltmak, inovasyonu teşvik etmek ve uzun vadeli değer yaratmak için daha iyi konumlandırılmıştır.",
+            "source": "McKinsey & Company, 2023"
+          },
+          {
+            "text": "ESG vurgusunda %10 artış, şirket değerinde %1.4 artışla ilişkilidir.",
+            "source": "Harvard Business Review, 2023"
+          }
+        ]
+      }
+    }
+  },
+  "general": {
+    "close": "Kapat"
+  },
+  "about": {
+    "title": "FutureVerde Hakkında - Öncü ESG Teknoloji Çözümleri",
+    "description": "FutureVerde'nin yenilikçi ESG raporlama, yeşil finansman ve yapay zeka destekli sürdürülebilirlik çözümleri ile endüstrileri dönüştürme misyonu hakkında bilgi edinin.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "Biz Kimiz?",
+      "description": "Dijital sürdürülebilirlik yoluyla endüstrileri dönüştürmede bize katılın."
+    },
+    "company": {
+      "paragraph1": "FutureVerde, daha sürdürülebilir bir gelecek inşa etmeye kararlı yenilikçi bir teknoloji şirketidir. ESG analizi ve yeşil finansman için hızlı, otomatik ve güvenilir çözümler sunmak amacıyla, finans ve endüstrideki derin uzmanlığımızı en son teknolojilerle entegre ediyoruz.",
+      "paragraph2": "Platformumuz ve ağımız aracılığıyla, işletmelerin gelişen sürdürülebilirlik ortamında kendilerini stratejik olarak konumlandırmalarına yardımcı olan uygulanabilir, sektöre özel içgörüler sağlıyoruz. Yeşil finansmanı daha erişilebilir, standartlaştırılmış ve verimli hale getirirken, endüstrilerin sürdürülebilirlik hedeflerini belirlemelerine ve takip etmelerine destek oluyoruz.",
+      "paragraph3": "İlk yatırımcımız GTech, 25 yıllık finansal ve teknoloji çözümleri deneyimiyle yeteneklerimizi daha da güçlendiriyor ve sürekli başarı için doğru konumda olmamızı sağlıyor."
+    },
+    "highlights": {
+      "greenFinancing": {
+        "title": "Yeşil Finansman ve Sürdürülebilirlik",
+        "icon": "plant"
+      },
+      "innovativeTech": {
+        "title": "Yenilikçi Teknolojiler",
+        "icon": "loading"
+      },
+      "experience": {
+        "title": "24 Yıllık Deneyim",
+        "icon": "arrow"
+      }
+    },
+    "facts": {
+      "founded": "Aralık 2024'te İstanbul'da kuruldu.",
+      "location": "Yıldız Teknik Üniversitesi bünyesindeki önemli bir inovasyon ekosistemi olan Yıldız Teknopark'tan faaliyet gösteriyor",
+      "team": "Yalın, azimli ekip: 3 tutkulu kurucu ortak ve 3 kendini adamış teknoloji yeteneği",
+      "partner": "Teknoloji ortağı: 24 yıllık fintech şirketi Gtech",
+      "expertise": "Uzmanlık: Yapay Zeka, İleri Analitik, Büyük Veri, Yazılım Geliştirme, Finansal Raporlama, Sürdürülebilirlik",
+      "commitment": "Taahhüt: Organizasyonları yapay zeka ve dijital inovasyon yoluyla sürdürülebilirlikte lider olmaya güç veriyoruz"
+    },
+    "team": {
+      "founders": {
+        "title": "Kurucular",
+        "ceo": "CEO / Genel Müdür",
+        "operations": "Kurucu Ortak, Operasyon Lideri",
+        "finance": "Kurucu Ortak, Finans Lideri"
+      },
+      "members": {
+        "title": "Ekip",
+        "seniorFrontend": "Kıdemli Frontend Geliştirici",
+        "seniorBackend": "Kıdemli Backend Geliştirici",
+        "frontend": "Frontend Geliştirici"
+      }
+    }
+  },
+  "solution": {
+    "title": "Çözümümüz - FutureVerde ESG ve Yeşil Finans Platformu",
+    "description": "AI destekli kapsamlı ESG raporlama ve yeşil finans platformumuzu keşfedin. Yenilikçi çözümlerimizle sürdürülebilirlik yolculuğunuzu dönüştürün.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "ESG Raporlama ve Yeşil Finansın Geleceği",
+      "description": "Kapsamlı ESG analizi, raporlama ve yeşil finans çözümleri için tasarlanmış AI destekli platformumuzla sürdürülebilirlik yolculuğunuzu dönüştürün.",
+      "stats": {
+        "companies": "500+",
+        "companiesLabel": "Hizmet Verilen Şirket",
+        "reports": "10,000+",
+        "reportsLabel": "Oluşturulan Rapor",
+        "accuracy": "%99.9",
+        "accuracyLabel": "Doğruluk Oranı"
+      }
+    },
+    "overview": {
+      "title": "Kapsamlı ESG ve Yeşil Finans Platformu",
+      "subtitle": "Sürdürülebilir iş dönüşümü için ihtiyacınız olan her şey",
+      "description": "FutureVerde, ESG raporlama, sürdürülebilirlik analizi ve yeşil finans için eksiksiz bir ekosistem sağlar. Platformumuz, en son AI teknolojisini endüstri uzmanlığı ile birleştirerek uygulanabilir içgörüler ve ölçülebilir sonuçlar sunar.",
+      "benefits": [
+        "AI Destekli Otomasyon",
+        "Gerçek Zamanlı Analitik",
+        "Düzenleyici Uyumluluk",
+        "Yeşil Finans Entegrasyonu"
+      ]
+    },
+    "features": {
+      "title": "Temel Özellikler",
+      "subtitle": "FutureVerde'nin Temel Özellikleriyle Sürdürülebilirlik Yolculuğunuzu Dönüştürün",
+      "aiReporting": {
+        "title": "Yapay Zeka Destekli Raporlama",
+        "description": "Kullanımı kolay araçlarla ESG raporlamasını kolaylaştırın, doğruluk ve hız sağlayın. AI destekli platformumuz veri toplama, analiz ve rapor oluşturmayı otomatikleştirerek manuel çabayı %80 azaltır.",
+        "benefits": [
+          "Otomatik Veri Toplama",
+          "AI Analizi",
+          "%80 Zaman Tasarrufu"
+        ]
+      },
+      "scoring": {
+        "title": "Çok Boyutlu Puanlama ve Karşılaştırma",
+        "description": "Sürdürülebilirlik performansınızı endüstri standartlarıyla ölçün ve karşılaştırın. Çevresel, sosyal ve yönetişim metriklerinde kapsamlı puanlama ve gerçek zamanlı karşılaştırma elde edin.",
+        "benefits": [
+          "Gerçek Zamanlı Karşılaştırma",
+          "ESG Metrikleri",
+          "Endüstri Standartları"
+        ]
+      },
+      "supplyChain": {
+        "title": "Tedarik Zinciri Takibi",
+        "description": "Tüm tedarik zinciriniz boyunca izlenebilirlik ve denetim yetenekleri elde edin. Sürdürülebilirlik uygulamalarını izleyin, karbon ayak izini takip edin ve değer ağınız boyunca uyumluluğu sağlayın.",
+        "benefits": ["Uçtan Uca Takip", "Karbon Ayak İzi", "Uyumluluk İzleme"]
+      },
+      "riskAnalysis": {
+        "title": "Proaktif Risk ve Fırsat Analizi",
+        "description": "AI destekli içgörülerle gelecekteki sürdürülebilirlik risklerini ve fırsatlarını belirleyin. Tahmine dayalı analitik, düzenleyici değişikliklerin ve pazar trendlerinin önünde kalmanıza yardımcı olur.",
+        "benefits": [
+          "Tahmine Dayalı Analitik",
+          "Risk Değerlendirmesi",
+          "Stratejik İçgörüler"
+        ]
+      }
+    },
+    "process": {
+      "title": "Nasıl Çalışır",
+      "subtitle": "Basit, verimli ve kapsamlı ESG çözümü",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Veri Entegrasyonu",
+          "description": "Mevcut sistemlerinizi ve veri kaynaklarınızı platformumuza sorunsuz entegrasyon için bağlayın."
+        },
+        {
+          "number": "02",
+          "title": "AI Analizi",
+          "description": "AI algoritmalarımız verilerinizi analiz eder ve kapsamlı ESG içgörüleri üretir."
+        },
+        {
+          "number": "03",
+          "title": "Rapor Oluşturma",
+          "description": "Özelleştirilebilir şablonlarla uyumlu ESG raporlarını otomatik olarak oluşturun."
+        },
+        {
+          "number": "04",
+          "title": "Yeşil Finans",
+          "description": "Yeşil finansman seçeneklerine erişin ve sürdürülebilirlik etkinizi takip edin."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Sürdürülebilirlik Yolculuğunuzu Dönüştürmeye Hazır mısınız?",
+      "description": "ESG raporlama ve yeşil finans süreçlerini kolaylaştırmak için FutureVerde'yi kullanan yüzlerce şirkete katılın.",
+      "button": "Bugün Başlayın"
+    }
+  },
+  "partnerships": {
+    "title": "Ortaklıklar ve İşbirliği - FutureVerde",
+    "description": "FutureVerde'nin stratejik ortaklıklarının ve işbirliklerinin ESG raporlama ve yeşil finans çözümlerinde nasıl yenilik yarattığını keşfedin.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "Stratejik Ortaklıklar ve İşbirliği",
+      "description": "ESG teknolojisi ve yeşil finans alanında yenilikçi ortaklıklar ve işbirlikçi çözümlerle sürdürülebilir bir gelecek inşa ediyoruz."
+    },
+    "intro": {
+      "title": "İşbirliklerimiz Nasıl Çalışır",
+      "description": "Sürdürülebilir iş uygulamalarına geçişi hızlandırmak için stratejik ortaklıkların gücüne inanıyoruz. İşbirlikçi yaklaşımımız, endüstri uzmanlığını en son teknoloji ile birleştirerek kapsamlı ESG çözümleri sunar."
+    },
+    "partnershipTypes": {
+      "title": "Ortaklık Fırsatları",
+      "subtitle": "Sürdürülebilirlik raporlaması ve yeşil finansı dönüştürmede bize katılın",
+      "technology": {
+        "title": "Teknoloji Ortakları",
+        "description": "AI destekli ESG platform yeteneklerimizi geliştirmek için önde gelen teknoloji şirketleriyle işbirliği yapın.",
+        "benefits": [
+          "Gelişmiş AI Entegrasyonu",
+          "Bulut Altyapısı",
+          "Veri Analitik Araçları",
+          "Güvenlik Çözümleri"
+        ]
+      },
+      "financial": {
+        "title": "Finansal Kurumlar",
+        "description": "Yeşil finansman süreçlerini ve uyumluluğu kolaylaştırmak için bankalar ve finansal hizmetlerle ortaklık kurun.",
+        "benefits": [
+          "Yeşil Finans Çözümleri",
+          "Düzenleyici Uyumluluk",
+          "Risk Değerlendirme Araçları",
+          "Yatırım Analitikleri"
+        ]
+      },
+      "consulting": {
+        "title": "Danışmanlık Ortakları",
+        "description": "Kapsamlı ESG danışmanlık hizmetleri sağlamak için sürdürülebilirlik danışmanlarıyla çalışın.",
+        "benefits": [
+          "Uzman Danışmanlık Hizmetleri",
+          "Endüstri En İyi Uygulamaları",
+          "Eğitim Programları",
+          "Uygulama Desteği"
+        ]
+      },
+      "academic": {
+        "title": "Akademik İşbirlikleri",
+        "description": "ESG metodolojilerini ve standartlarını geliştirmek için üniversiteler ve araştırma kurumlarıyla ortaklık kurun.",
+        "benefits": [
+          "Araştırma ve Geliştirme",
+          "Metodoloji İnovasyonu",
+          "Akademik Doğrulama",
+          "Bilgi Paylaşımı"
+        ]
+      }
+    },
+    "process": {
+      "title": "Ortaklık Sürecimiz",
+      "steps": [
+        {
+          "number": "01",
+          "title": "İlk Konsültasyon",
+          "description": "Organizasyonunuzun sürdürülebilirlik hedeflerini ve ortaklık amaçlarını anlamak için kapsamlı bir tartışma ile başlıyoruz."
+        },
+        {
+          "number": "02",
+          "title": "Stratejik Uyum",
+          "description": "Teknolojilerimizin ve uzmanlığımızın iş ihtiyaçlarınız ve sürdürülebilirlik girişimlerinizle nasıl uyumlu olduğunu değerlendiriyoruz."
+        },
+        {
+          "number": "03",
+          "title": "Ortaklık Tasarımı",
+          "description": "Her iki organizasyon için de değeri maksimize eden özelleştirilmiş bir ortaklık çerçevesi tasarlıyoruz."
+        },
+        {
+          "number": "04",
+          "title": "Uygulama ve Büyüme",
+          "description": "Ortaklığı sürekli destek ve uzun vadeli başarı için sürekli optimizasyon ile uyguluyoruz."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Neden FutureVerde ile Ortaklık Kurmalısınız",
+      "items": [
+        {
+          "title": "İnovasyon Liderliği",
+          "description": "En son AI ve sürdürülebilirlik teknolojilerine erişim"
+        },
+        {
+          "title": "Pazar Uzmanlığı",
+          "description": "ESG düzenlemeleri ve pazar trendleri hakkında derin anlayış"
+        },
+        {
+          "title": "Ölçeklenebilir Çözümler",
+          "description": "İşletmenizle birlikte büyüyen esnek ortaklık modelleri"
+        },
+        {
+          "title": "Küresel Ağ",
+          "description": "Sürdürülebilirlik liderlerinin ekosistemimize bağlanın"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ortaklık Kurmaya Hazır mısınız?",
+      "description": "Sürdürülebilirliği ve ESG raporlamasını geliştirmek için nasıl birlikte çalışabileceğimizi tartışalım.",
+      "button": "Ortaklık Tartışması Başlat"
+    },
+    "timeline": {
+      "title": "İşbirliği Sürecimiz",
+      "subtitle": "Stratejik ortaklıklar aracılığıyla sürdürülebilir değer yaratmak için nasıl birlikte çalıştığımızı keşfedin",
+      "milestones": [
+        {
+          "title": "İlk İletişim",
+          "description": "Ortaklar, sürdürülebilirlik hedeflerini ve ortaklık amaçlarını paylaşarak işbirliği fırsatlarını keşfetmek için bizimle iletişime geçer.",
+          "achievements": ["Ortaklık Talebi", "Hedef Uyumu", "İlk Görüşme"],
+          "stats": [
+            { "value": "24s", "label": "Yanıt Süresi" },
+            { "value": "100%", "label": "Gizlilik" }
+          ]
+        },
+        {
+          "title": "Stratejik Sunum",
+          "description": "Yeteneklerimizi, özelleştirilmiş çözümlerimizi ve ortaklık çerçevemizi gösteren kapsamlı bir sunum sunuyoruz.",
+          "achievements": [
+            "Özelleştirilmiş Demo",
+            "Çözüm Haritalama",
+            "Değer Önerisi"
+          ],
+          "stats": [
+            { "value": "60dk", "label": "Sunum" },
+            { "value": "100%", "label": "Özelleştirilmiş" }
+          ]
+        },
+        {
+          "title": "Ortaklık Tasarımı",
+          "description": "Birlikte, her iki organizasyon için de değeri maksimize eden özelleştirilmiş bir ortaklık çerçevesi tasarlıyoruz.",
+          "achievements": [
+            "Çerçeve Tasarımı",
+            "Kilometre Taşı Planlaması",
+            "Başarı Metrikleri"
+          ],
+          "stats": [
+            { "value": "2-4", "label": "Hafta" },
+            { "value": "100%", "label": "İşbirlikçi" }
+          ]
+        },
+        {
+          "title": "Uygulama ve Büyüme",
+          "description": "Ortaklığı sürekli destek, sürekli optimizasyon ve uzun vadeli başarı takibi ile uyguluyoruz.",
+          "achievements": [
+            "Kesintisiz Entegrasyon",
+            "Sürekli Destek",
+            "Performans Takibi"
+          ],
+          "stats": [
+            { "value": "7/24", "label": "Destek" },
+            { "value": "100%", "label": "Başarı Oranı" }
+          ]
+        }
+      ]
+    }
+  }
+}

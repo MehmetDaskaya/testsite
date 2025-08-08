@@ -1,0 +1,568 @@
+{
+  "title": "PAVING THE WAY FOR TECH-DRIVEN SUSTAINABILITY",
+  "description": "Our commitment to innovation and sustainability drives us to provide comprehensive ESG reporting and green finance solutions.",
+  "hero": {
+    "title": "PAVING THE WAY FOR TECH-DRIVEN SUSTAINABILITY",
+    "subtitle": "Our commitment to innovation and sustainability drives us to provide comprehensive ESG reporting and green finance solutions.",
+    "cta": "Get Started",
+    "successStories": {
+      "title": "View Our Success Stories",
+      "description": "Demonstrating our dedication to sustainability and the beneficial effects we've had on ESG reporting and green financing."
+    },
+    "stats": {
+      "number": "500+",
+      "label": "Companies"
+    }
+  },
+  "welcome": {
+    "subtitle": "FUTUREVERDE",
+    "title": "Welcome to FutureVerde",
+    "description1": "FutureVerde is your forward-thinking technology partner on the path to sustainability.",
+    "description2": "Our intelligent, data-driven platform combines big data, advanced analytics, business intelligence, and AI to deliver a comprehensive suite for ESG Analysis, Reporting, and Green Financing.",
+    "description3": "Designed to help companies meet both national and international standards, FutureVerde enhances transparency, accuracy, and impact in sustainability reporting. With predictive technologies, our platform empowers businesses to anticipate risks, seize emerging opportunities, and make future-oriented, strategic decisions.",
+    "imageAlt": "Industrial facility with green chimney",
+    "overlayTitle": "GREEN FINANCING & SUSTAINABILITY"
+  },
+  "insightDots": {
+    "title": "InsightDots",
+    "insights": [
+      {
+        "quote": "A 10% increase in ESG emphasis correlates with a 1.4% rise in company valuation.",
+        "source": "Wharton, 2024"
+      },
+      {
+        "quote": "75% of executives believe sustainability leads to better business outcomes, and 76% say it's central to their strategy.",
+        "source": "IBM, 2024"
+      },
+      {
+        "quote": "75% of executives state their organizations increased sustainability investments in the past year.",
+        "source": "Deloitte, 2023"
+      }
+    ],
+    "cta": "See All"
+  },
+  "keyFeatures": {
+    "title": "Key Features",
+    "subtitle": "Transform Your Sustainability Journey with FutureVerde's Key Features",
+    "features": [
+      {
+        "title": "AI-Powered Reporting",
+        "description": "Streamline ESG reporting with easy-to-use tools, ensuring accuracy and speed. Our AI-driven platform automates data collection, analysis, and report generation, reducing manual effort by 80%.",
+        "achievements": [
+          "Automated Data Collection",
+          "AI Analysis",
+          "80% Time Reduction"
+        ],
+        "stats": [
+          { "value": "80%", "label": "Time Saved" },
+          { "value": "100%", "label": "AI-Powered" }
+        ]
+      },
+      {
+        "title": "Multidimensional Scoring & Benchmarking",
+        "description": "Measure and compare your sustainability performance to industry standards. Get comprehensive scoring across environmental, social, and governance metrics with real-time benchmarking.",
+        "achievements": [
+          "Real-time Benchmarking",
+          "ESG Metrics",
+          "Industry Standards"
+        ],
+        "stats": [{ "value": "Real-time", "label": "Updates" }]
+      },
+      {
+        "title": "Supply Chain Tracking",
+        "description": "Gain traceability and audit capabilities across your entire supply chain. Monitor sustainability practices, track carbon footprint, and ensure compliance throughout your value network.",
+        "achievements": [
+          "End-to-End Tracking",
+          "Carbon Footprint",
+          "Compliance Monitoring"
+        ],
+        "stats": [
+          { "value": "100%", "label": "Traceability" },
+          { "value": "24/7", "label": "Monitoring" }
+        ]
+      },
+      {
+        "title": "Proactive Risk & Opportunity Analysis",
+        "description": "Identify future sustainability risks and opportunities with AI-driven insights. Predictive analytics help you stay ahead of regulatory changes and market trends for strategic advantage.",
+        "achievements": [
+          "Predictive Analytics",
+          "Risk Assessment",
+          "Strategic Insights"
+        ],
+        "stats": [
+          { "value": "AI", "label": "Driven" },
+          { "value": "Future", "label": "Focused" }
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "solution": "Our Solution",
+    "insights": "Insights",
+    "features": "Key Features",
+    "industries": "Industries We Serve",
+    "partnerships": "Partnerships & Collaboration",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Contact FutureVerde - Get in Touch",
+    "description": "Connect with FutureVerde for ESG reporting, green financing, and sustainability solutions. Reach out to our team for consultations, partnerships, and support.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "Get in Touch",
+      "description": "Ready to transform your sustainability journey? Contact our team for expert guidance on ESG reporting and green financing solutions."
+    },
+    "info": {
+      "title": "Contact Information",
+      "subtitle": "Connect with our sustainability experts",
+      "address": {
+        "title": "Office Address",
+        "value": "Yıldız Teknopark, Yıldız Technical University, Istanbul, Turkey"
+      },
+      "email": {
+        "title": "Email Address",
+        "value": "info@futureverde.com"
+      },
+      "phone": {
+        "title": "Phone Number",
+        "value": "+90 212 285 99 75"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "value": "Monday - Friday: 9:00 AM - 6:00 PM (GMT+3)"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours",
+      "fields": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "company": "Company Name",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Your Message",
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": "Message sent successfully!",
+        "error": "Error sending message. Please try again."
+      },
+      "validation": {
+        "required": "This field is required",
+        "email": "Please enter a valid email address",
+        "phone": "Please enter a valid phone number"
+      }
+    },
+    "map": {
+      "title": "Find Us",
+      "subtitle": "Visit our office at Yıldız Teknopark"
+    }
+  },
+  "cta": {
+    "label": "Get in Touch",
+    "title": "Sustainability Platform",
+    "subtitle": "FUTUREVERDE"
+  },
+  "insights": {
+    "title": "Insight Dots - FutureVerde Sustainability Insights",
+    "description": "Explore key sustainability insights and trends shaping the future of ESG reporting, consumer behavior, and sustainable business practices.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "Insight Dots",
+      "description": "Key sustainability insights and trends shaping the future of business"
+    },
+    "sections": {
+      "regulatory": {
+        "title": "Adapting to a Shifting Regulatory Landscape",
+        "subtitle": "Regulations Are Rising",
+        "insights": [
+          {
+            "text": "Over 50,000 companies worldwide are required to disclose detailed ESG data under the EU's Corporate Sustainability Reporting Directive.",
+            "source": "European Union, 2024"
+          },
+          {
+            "text": "51% of board directors believe their boards are adequately prepared to oversee upcoming ESG disclosure mandates — up from just 25% in 2022.",
+            "source": "PwC, 2023"
+          }
+        ]
+      },
+      "consumer": {
+        "title": "Consumer Behavior & Sustainability",
+        "subtitle": "Consumers Going Green",
+        "insights": [
+          {
+            "text": "46% of consumers report purchasing more sustainable products to reduce their carbon footprint.",
+            "source": "PwC, 2024"
+          },
+          {
+            "text": "Despite concerns around the cost of living, consumers are willing to pay an average of 9.7% more for sustainably sourced or produced goods.",
+            "source": "PwC, 2024"
+          }
+        ]
+      },
+      "circular": {
+        "title": "Circular Economy",
+        "subtitle": "Closing the Loop",
+        "insights": [
+          {
+            "text": "Circular economy practices could reduce global CO2 emissions by 39% by 2030.",
+            "source": "Circle Economy Foundation, 2021"
+          },
+          {
+            "text": "With circular economy principles in place, up to 80% of global plastic waste could be recycled by 2040.",
+            "source": "UN Environment Programme, 2023"
+          }
+        ]
+      },
+      "finance": {
+        "title": "Economic Impact: Sustainable Finance & ESG Assets",
+        "subtitle": "Sustainable Finance Is Growing",
+        "insights": [
+          {
+            "text": "Global sustainable finance assets reached $35.3 trillion in 2020, representing 36% of total managed assets.",
+            "source": "Global Sustainable Investment Alliance, 2021"
+          },
+          {
+            "text": "ESG-focused funds attracted $51.1 billion in net flows in 2020, a 96% increase from 2019.",
+            "source": "Morningstar, 2021"
+          }
+        ]
+      },
+      "business": {
+        "title": "Driving Business Outcomes Through Sustainability",
+        "subtitle": "Better Business Outcomes Are On The Way",
+        "insights": [
+          {
+            "text": "Businesses that lead effectively in sustainability are better positioned to reduce risk, foster innovation, and create long-term value.",
+            "source": "McKinsey & Company, 2023"
+          },
+          {
+            "text": "A 10% increase in ESG emphasis correlates with a 1.4% rise in company valuation.",
+            "source": "Harvard Business Review, 2023"
+          }
+        ]
+      }
+    }
+  },
+  "general": {
+    "close": "Close"
+  },
+  "about": {
+    "title": "About FutureVerde - Leading ESG Technology Solutions",
+    "description": "Learn about FutureVerde's mission to transform industries through innovative ESG reporting, green financing, and AI-driven sustainability solutions.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "Who Are We?",
+      "description": "Join us in transforming industries through digital sustainability."
+    },
+    "company": {
+      "paragraph1": "FutureVerde is an innovative technology company committed to building a more sustainable future. We integrate cutting-edge technologies with deep expertise in finance and industry to deliver fast, automated, and reliable solutions for ESG analysis and green financing.",
+      "paragraph2": "Through our platform and network, we provide actionable, industry-specific insights that help businesses position themselves strategically in the evolving sustainability landscape. We support industries in setting and tracking their sustainability goals while making green finance more accessible, standardized, and efficient.",
+      "paragraph3": "Our first investor, GTech, with 25 years of experience in financial and technology solutions, further strengthens our capabilities, ensuring we are positioned for continued success."
+    },
+    "highlights": {
+      "greenFinancing": {
+        "title": "Green Financing & Sustainability",
+        "icon": "plant"
+      },
+      "innovativeTech": {
+        "title": "Innovative Technologies",
+        "icon": "loading"
+      },
+      "experience": {
+        "title": "24 Years of Experience",
+        "icon": "arrow"
+      }
+    },
+    "facts": {
+      "founded": "Founded in Istanbul in December 2024.",
+      "location": "Operating from Yıldız Teknopark, a major innovation ecosystem within Yıldız Technical University",
+      "team": "Lean, driven team: 3 passionate co-founders and 3 dedicated tech talents",
+      "partner": "Technology partner: Gtech; a 24 year old fintech Company",
+      "expertise": "Expertise: AI, Advanced Analytics, Big Data, SW Dev, Financial Reporting, Sustainability",
+      "commitment": "Commitment: We empower organizations to lead sustainability through AI and digital innovation"
+    },
+    "team": {
+      "founders": {
+        "title": "Founders",
+        "ceo": "CEO / Chief Executive Officer",
+        "operations": "Founding Partner, Head of Operations",
+        "finance": "Founding Partner, Head of Finance"
+      },
+      "members": {
+        "title": "Team",
+        "seniorFrontend": "Senior Frontend Developer",
+        "seniorBackend": "Senior Backend Developer",
+        "frontend": "Frontend Developer"
+      }
+    }
+  },
+  "solution": {
+    "title": "Our Solution - FutureVerde ESG & Green Finance Platform",
+    "description": "Discover FutureVerde's comprehensive ESG reporting and green finance platform powered by AI. Transform your sustainability journey with our innovative solutions.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "The Future of ESG Reporting & Green Finance",
+      "description": "Transform your sustainability journey with our AI-powered platform designed for comprehensive ESG analysis, reporting, and green financing solutions.",
+      "stats": {
+        "companies": "500+",
+        "companiesLabel": "Companies Served",
+        "reports": "10,000+",
+        "reportsLabel": "Reports Generated",
+        "accuracy": "99.9%",
+        "accuracyLabel": "Accuracy Rate"
+      }
+    },
+    "overview": {
+      "title": "Comprehensive ESG & Green Finance Platform",
+      "subtitle": "Everything you need for sustainable business transformation",
+      "description": "FutureVerde provides a complete ecosystem for ESG reporting, sustainability analysis, and green financing. Our platform combines cutting-edge AI technology with industry expertise to deliver actionable insights and measurable results.",
+      "benefits": [
+        "AI-Powered Automation",
+        "Real-time Analytics",
+        "Regulatory Compliance",
+        "Green Finance Integration"
+      ]
+    },
+    "features": {
+      "title": "Key Features",
+      "subtitle": "Transform Your Sustainability Journey with FutureVerde's Key Features",
+      "aiReporting": {
+        "title": "AI-Powered Reporting",
+        "description": "Streamline ESG reporting with easy-to-use tools, ensuring accuracy and speed. Our AI-driven platform automates data collection, analysis, and report generation, reducing manual effort by 80%.",
+        "benefits": [
+          "Automated Data Collection",
+          "AI Analysis",
+          "80% Time Reduction"
+        ]
+      },
+      "scoring": {
+        "title": "Multidimensional Scoring & Benchmarking",
+        "description": "Measure and compare your sustainability performance to industry standards. Get comprehensive scoring across environmental, social, and governance metrics with real-time benchmarking.",
+        "benefits": [
+          "Real-time Benchmarking",
+          "ESG Metrics",
+          "Industry Standards"
+        ]
+      },
+      "supplyChain": {
+        "title": "Supply Chain Tracking",
+        "description": "Gain traceability and audit capabilities across your entire supply chain. Monitor sustainability practices, track carbon footprint, and ensure compliance throughout your value network.",
+        "benefits": [
+          "End-to-End Tracking",
+          "Carbon Footprint",
+          "Compliance Monitoring"
+        ]
+      },
+      "riskAnalysis": {
+        "title": "Proactive Risk & Opportunity Analysis",
+        "description": "Identify future sustainability risks and opportunities with AI-driven insights. Predictive analytics help you stay ahead of regulatory changes and market trends for strategic advantage.",
+        "benefits": [
+          "Predictive Analytics",
+          "Risk Assessment",
+          "Strategic Insights"
+        ]
+      }
+    },
+    "process": {
+      "title": "How It Works",
+      "subtitle": "Simple, efficient, and comprehensive ESG solution",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Data Integration",
+          "description": "Connect your existing systems and data sources to our platform for seamless integration."
+        },
+        {
+          "number": "02",
+          "title": "AI Analysis",
+          "description": "Our AI algorithms analyze your data and generate comprehensive ESG insights."
+        },
+        {
+          "number": "03",
+          "title": "Report Generation",
+          "description": "Automatically generate compliant ESG reports with customizable templates."
+        },
+        {
+          "number": "04",
+          "title": "Green Finance",
+          "description": "Access green financing options and track your sustainability impact."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Transform Your Sustainability Journey?",
+      "description": "Join hundreds of companies already using FutureVerde to streamline their ESG reporting and green finance processes.",
+      "button": "Get Started Today"
+    }
+  },
+  "partnerships": {
+    "title": "Partnerships & Collaboration - FutureVerde",
+    "description": "Discover how FutureVerde's strategic partnerships and collaborations drive innovation in ESG reporting and green finance solutions.",
+    "hero": {
+      "subtitle": "FUTUREVERDE",
+      "title": "Strategic Partnerships & Collaboration",
+      "description": "Building a sustainable future through innovative partnerships and collaborative solutions in ESG technology and green finance."
+    },
+    "intro": {
+      "title": "How Our Collaborations Work",
+      "description": "We believe in the power of strategic partnerships to accelerate the transition to sustainable business practices. Our collaborative approach combines industry expertise with cutting-edge technology to deliver comprehensive ESG solutions."
+    },
+    "partnershipTypes": {
+      "title": "Partnership Opportunities",
+      "subtitle": "Join us in transforming sustainability reporting and green finance",
+      "technology": {
+        "title": "Technology Partners",
+        "description": "Collaborate with leading tech companies to enhance our AI-powered ESG platform capabilities.",
+        "benefits": [
+          "Advanced AI Integration",
+          "Cloud Infrastructure",
+          "Data Analytics Tools",
+          "Security Solutions"
+        ]
+      },
+      "financial": {
+        "title": "Financial Institutions",
+        "description": "Partner with banks and financial services to streamline green financing processes and compliance.",
+        "benefits": [
+          "Green Finance Solutions",
+          "Regulatory Compliance",
+          "Risk Assessment Tools",
+          "Investment Analytics"
+        ]
+      },
+      "consulting": {
+        "title": "Consulting Partners",
+        "description": "Work with sustainability consultants to provide comprehensive ESG advisory services.",
+        "benefits": [
+          "Expert Advisory Services",
+          "Industry Best Practices",
+          "Training Programs",
+          "Implementation Support"
+        ]
+      },
+      "academic": {
+        "title": "Academic Collaborations",
+        "description": "Partner with universities and research institutions to advance ESG methodologies and standards.",
+        "benefits": [
+          "Research & Development",
+          "Methodology Innovation",
+          "Academic Validation",
+          "Knowledge Sharing"
+        ]
+      }
+    },
+    "process": {
+      "title": "Our Partnership Process",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Initial Consultation",
+          "description": "We begin with a comprehensive discussion to understand your organization's sustainability goals and partnership objectives."
+        },
+        {
+          "number": "02",
+          "title": "Strategic Alignment",
+          "description": "We assess how our technologies and expertise align with your business needs and sustainability initiatives."
+        },
+        {
+          "number": "03",
+          "title": "Partnership Design",
+          "description": "Together, we design a customized partnership framework that maximizes value for both organizations."
+        },
+        {
+          "number": "04",
+          "title": "Implementation & Growth",
+          "description": "We implement the partnership with ongoing support and continuous optimization for long-term success."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Why Partner With FutureVerde",
+      "items": [
+        {
+          "title": "Innovation Leadership",
+          "description": "Access to cutting-edge AI and sustainability technologies"
+        },
+        {
+          "title": "Market Expertise",
+          "description": "Deep understanding of ESG regulations and market trends"
+        },
+        {
+          "title": "Scalable Solutions",
+          "description": "Flexible partnership models that grow with your business"
+        },
+        {
+          "title": "Global Network",
+          "description": "Connect with our ecosystem of sustainability leaders"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Partner?",
+      "description": "Let's discuss how we can work together to advance sustainability and ESG reporting.",
+      "button": "Start Partnership Discussion"
+    },
+    "timeline": {
+      "title": "Our Collaboration Process",
+      "subtitle": "Discover how we work together to create sustainable value through strategic partnerships",
+      "milestones": [
+        {
+          "title": "Initial Contact",
+          "description": "Partners reach out to explore collaboration opportunities, sharing their sustainability goals and partnership objectives.",
+          "achievements": [
+            "Partnership Inquiry",
+            "Goal Alignment",
+            "Initial Discussion"
+          ],
+          "stats": [
+            { "value": "24h", "label": "Response Time" },
+            { "value": "100%", "label": "Confidential" }
+          ]
+        },
+        {
+          "title": "Strategic Presentation",
+          "description": "We deliver a comprehensive presentation showcasing our capabilities, tailored solutions, and partnership framework.",
+          "achievements": [
+            "Customized Demo",
+            "Solution Mapping",
+            "Value Proposition"
+          ],
+          "stats": [
+            { "value": "60min", "label": "Presentation" },
+            { "value": "100%", "label": "Tailored" }
+          ]
+        },
+        {
+          "title": "Partnership Design",
+          "description": "Together, we design a customized partnership framework that maximizes value for both organizations.",
+          "achievements": [
+            "Framework Design",
+            "Milestone Planning",
+            "Success Metrics"
+          ],
+          "stats": [
+            { "value": "2-4", "label": "Weeks" },
+            { "value": "100%", "label": "Collaborative" }
+          ]
+        },
+        {
+          "title": "Implementation & Growth",
+          "description": "We implement the partnership with ongoing support, continuous optimization, and long-term success tracking.",
+          "achievements": [
+            "Seamless Integration",
+            "Ongoing Support",
+            "Performance Tracking"
+          ],
+          "stats": [
+            { "value": "24/7", "label": "Support" },
+            { "value": "100%", "label": "Success Rate" }
+          ]
+        }
+      ]
+    }
+  }
+}

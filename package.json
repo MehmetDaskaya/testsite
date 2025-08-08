@@ -9,8 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.6.1",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.507.0",
+    "negotiator": "^1.0.0",
+    "next": "15.3.1",
+    "nodemailer": "^7.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.1"
+    "react-scroll-parallax": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.8.3"
   }
 }
