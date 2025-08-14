@@ -28,9 +28,9 @@ const Navbar = () => {
     { href: `/${currentLocale}`, label: nav.home },
     { href: `/${currentLocale}/about`, label: nav.about },
     { href: `/${currentLocale}/solution`, label: nav.solution },
+    { href: `/${currentLocale}/contact`, label: nav.contact },
     { href: `/${currentLocale}/insights`, label: nav.insights },
     { href: `/${currentLocale}/partnerships`, label: nav.partnerships },
-    { href: `/${currentLocale}/contact`, label: nav.contact },
   ];
 
   // Dynamically adjust visible items based on screen width

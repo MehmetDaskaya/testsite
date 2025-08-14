@@ -25,6 +25,9 @@ function getLocale(request) {
 export function middleware(request) {
   const pathname = request.nextUrl.pathname;
 
+  // Skip API routes entirely
+  if (pathname.startsWith("/api")) return;
+
   // Check if the pathname already starts with a locale
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
@@ -48,5 +51,7 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|favicon.ico|robots.txt|sitemap.xml|images|assets).*)"],
+  matcher: [
+    "/((?!_next|favicon.ico|robots.txt|sitemap.xml|images|assets|api).*)",
+  ],
 };

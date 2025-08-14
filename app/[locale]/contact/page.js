@@ -1,8 +1,11 @@
 import ClientLayout from "../components/ClientLayout";
 import { getDictionary } from "../../../lib/getDictionary";
 import ContactForm from "../components/ContactForm";
+import TestContactForm from "../components/TestContactForm";
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata(props) {
+  const { params } = await props;
+  const { locale } = params;
   const dict = await getDictionary(locale);
 
   return {
@@ -55,7 +58,9 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-export default async function ContactPage({ params: { locale } }) {
+export default async function ContactPage(props) {
+  const { params } = await props;
+  const { locale } = params;
   const dict = await getDictionary(locale);
   const { contact } = dict;
   const buttonLabel = locale === "tr" ? "E-posta Gönder" : "Send Email";
@@ -226,17 +231,19 @@ export default async function ContactPage({ params: { locale } }) {
                * The interactive form is kept here for future use, but commented out per request
                * <ContactForm contact={contact} />
                */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 flex flex-col items-center justify-center min-h-[320px]">
-                <h3 className="text-2xl font-bold text-[#1a2e1a] mb-4">
-                  {locale === "tr"
-                    ? "Bize E-posta ile Ulaşın"
-                    : "Contact Us via Email"}
-                </h3>
-                <p className="text-[#54655e] mb-6 text-center max-w-md">
-                  {locale === "tr"
-                    ? "Tercih ederseniz doğrudan e-posta gönderebilirsiniz. Yeni bir sekmede e-posta uygulamanız açılacaktır."
-                    : "Prefer email? Send us a direct message. Your default mail app will open in a new tab."}
-                </p>
+              <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 flex flex-col gap-8 items-center justify-center min-h-[320px]">
+                <div className="text-center">
+                  <h3 className="text-2xl font-bold text-[#1a2e1a] mb-2">
+                    {locale === "tr"
+                      ? "Bize E-posta ile Ulaşın"
+                      : "Contact Us via Email"}
+                  </h3>
+                  <p className="text-[#54655e] text-center max-w-md">
+                    {locale === "tr"
+                      ? "Tercih ederseniz doğrudan e-posta gönderebilirsiniz. Yeni bir sekmede e-posta uygulamanız açılacaktır."
+                      : "Prefer email? Send us a direct message. Your default mail app will open in a new tab."}
+                  </p>
+                </div>
                 <a
                   href={
                     "mailto:info@futureverde.com?subject=" +
@@ -274,6 +281,21 @@ export default async function ContactPage({ params: { locale } }) {
                   </svg>
                   <span>{buttonLabel}</span>
                 </a>
+
+                {/* Test Contact Form via Resend */}
+                {/**
+                 * <div className="w-full max-w-xl">
+                 *   <h4 className="text-lg font-semibold text-[#1a2e1a] mb-3">
+                 *     {locale === "tr" ? "Test İletişim Formu" : "Test Contact Form"}
+                 *   </h4>
+                 *   <p className="text-[#54655e] mb-4">
+                 *     {locale === "tr"
+                 *       ? "Bu form, Resend ile test amaçlı e-posta gönderir. Ortam değişkenine RESEND_API_KEY eklemeyi unutmayın."
+                 *       : "This form sends a test email via Resend. Don’t forget to add RESEND_API_KEY to your environment."}
+                 *   </p>
+                 *   <TestContactForm />
+                 * </div>
+                 */}
               </div>
             </div>
           </div>
@@ -291,7 +313,7 @@ export default async function ContactPage({ params: { locale } }) {
 
             <div className="relative h-96 md:h-[500px] rounded-2xl overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.9633698339308!2d28.9554!3d41.1053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDA2JzE5LjEiTiAyOMKwNTcnMTkuNCJF!5e0!3m2!1sen!2str!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.9633698339308!2d28.9554!3d41.1053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDA2JzE5LjEiNiAyOMKwNTcnMTkuNCJF!5e0!3m2!1sen!2str!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

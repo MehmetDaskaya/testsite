@@ -7,7 +7,8 @@ import ClientDictionaryProvider from "../../lib/ClientDictionaryProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata(props) {
+  const { params } = await props;
   const locale = params?.locale ?? "en";
   const dictionary = await getDictionary(locale);
 
@@ -41,7 +42,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function RootLayout({ children, params }) {
+export default async function RootLayout(props) {
+  const { children, params } = await props;
   const locale = params?.locale ?? "en";
   const dictionary = await getDictionary(locale);
 
