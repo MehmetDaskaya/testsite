@@ -1,25 +1,67 @@
-"use client";
 import Image from "next/image";
-import { useRouter, usePathname } from "next/navigation";
 import CallToAction from "./components/CallToAction";
 import ClientLayout from "./components/ClientLayout";
 import KeyFeaturesTimeline from "./components/KeyFeaturesTimeline";
 import InsightDots from "./components/InsightDots";
-import { useDictionary } from "../../lib/DictionaryContext";
+import { getDictionary } from "../../lib/getDictionary";
+import heroImg from "../assets/futureverde-hero.webp";
+import sustainabilityImg from "../assets/futureverde-sustainability.webp";
+import GetStartedButton from "./components/GetStartedButton";
+import ScrollDownButton from "./components/ScrollDownButton";
 
-// Note: Home is a client component; we expose a server-side metadata via a route-level file would be ideal.
-// As a pragmatic improvement, add a server export below in a separate file if needed. For now, we leave as-is to avoid drastic refactor.
+// SEO metadata for homepage
+export async function generateMetadata(props) {
+  const { params } = await props;
+  const locale = (await params)?.locale ?? "en";
+  const dictionary = await getDictionary(locale);
+  const baseUrl = "https://futureverde.com";
 
-export default function FutureVerdePage() {
-  const dictionary = useDictionary();
-  const { hero, keyFeatures, welcome, insightDots } = dictionary;
-  const router = useRouter();
-  const pathname = usePathname();
-
-  const handleGetStartedClick = () => {
-    const locale = pathname.split("/")[1];
-    router.push(`/${locale}/solution`);
+  return {
+    title: dictionary.title,
+    description: dictionary.description,
+    keywords:
+      "FutureVerde, ESG reporting, sustainability, green finance, AI-powered reporting, environmental technology, sustainable development, ESG analysis, green financing solutions, sustainability platform",
+    openGraph: {
+      title: dictionary.title,
+      description: dictionary.description,
+      type: "website",
+      locale: locale,
+      url: `${baseUrl}/${locale}`,
+      siteName: "FutureVerde",
+      images: [
+        {
+          url: `${baseUrl}/images/fv-banner.webp`,
+          width: 1200,
+          height: 630,
+          alt: dictionary.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: dictionary.title,
+      description: dictionary.description,
+      images: [`${baseUrl}/images/fv-banner.webp`],
+    },
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        en: `${baseUrl}/en`,
+        tr: `${baseUrl}/tr`,
+      },
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
+}
+
+export default async function FutureVerdePage(props) {
+  const { params } = await props;
+  const locale = (await params)?.locale ?? "en";
+  const dictionary = await getDictionary(locale);
+  const { hero, keyFeatures, welcome, insightDots } = dictionary;
 
   return (
     <ClientLayout>
@@ -29,10 +71,10 @@ export default function FutureVerdePage() {
           {/* Background Image - Slides from right */}
           <div className="absolute inset-0 z-0 animate-slide-in-right">
             <Image
-              src="https://future.codobilisim.com/wp-content/uploads/2025/04/Artboard-1-1.png"
-              alt="Hero background"
-              layout="fill"
-              objectFit="cover"
+              src={heroImg}
+              alt="FutureVerde sustainability platform hero image"
+              fill
+              className="object-cover"
               priority
             />
           </div>
@@ -45,25 +87,7 @@ export default function FutureVerdePage() {
             <p className="text-[#54655e] text-lg md:pr-12 mb-8">
               {hero.subtitle}
             </p>
-            <button
-              onClick={handleGetStartedClick}
-              className="bg-gradient-to-r from-green-500 to-green-600 text-white font-bold py-4 px-8 rounded-full hover:from-green-600 hover:to-green-700 transition-all duration-300 flex items-center space-x-2 group hover:scale-105 transform"
-            >
-              <span>{hero.cta}</span>
-              <svg
-                className="w-5 h-5 transform group-hover:translate-x-1 transition-transform"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
-            </button>
+            <GetStartedButton locale={locale} text={hero.cta} />
           </div>
 
           {/* Right side spacer to maintain layout */}
@@ -71,32 +95,7 @@ export default function FutureVerdePage() {
 
           {/* Scroll down arrow - Slides from right */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30 animate-slide-in-right-delayed-2">
-            <button
-              onClick={() => {
-                const nextSection = document.getElementById("welcome-section");
-                if (nextSection) {
-                  nextSection.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-              className="group animate-bounce-slow cursor-pointer hover:scale-110 transition-transform duration-300"
-              aria-label="Scroll to next section"
-            >
-              <div className="w-12 h-12 bg-[#1a2e1a]/80 backdrop-blur-sm rounded-full flex items-center justify-center border border-[#1a2e1a]/60 hover:bg-[#1a2e1a] transition-all duration-300 shadow-lg">
-                <svg
-                  className="w-6 h-6 text-white group-hover:text-white transition-colors duration-300"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                  />
-                </svg>
-              </div>
-            </button>
+            <ScrollDownButton />
           </div>
         </section>
 
@@ -109,11 +108,10 @@ export default function FutureVerdePage() {
             <div className="w-full md:w-1/2 mb-10 md:mb-0">
               <div className="relative rounded-xl overflow-hidden h-64 md:h-96">
                 <Image
-                  src="https://future.codobilisim.com/wp-content/uploads/elementor/thumbs/Resim2-r4k5g82mckgdgmc6csnnp5q3k6333pc25j0w0ekvmc.jpg"
+                  src={sustainabilityImg}
                   alt={welcome.imageAlt}
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-xl"
+                  fill
+                  className="object-cover rounded-xl"
                 />
                 <div className="absolute bottom-0 left-0 bg-[#2d4d44] text-white p-6 md:p-8 rounded-tr-xl">
                   <h3 className="text-2xl md:text-3xl font-bold mb-2">

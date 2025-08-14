@@ -564,5 +564,19 @@
         }
       ]
     }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track to building a sustainable future.",
+    "goHome": "Go Home",
+    "contactSupport": "Contact Support",
+    "aboutUs": "About Us",
+    "aboutUsDesc": "Learn about our mission and team",
+    "ourSolution": "Our Solution",
+    "ourSolutionDesc": "Discover our sustainability platform",
+    "insights": "Insights",
+    "insightsDesc": "Read our latest sustainability insights",
+    "footerNote": "If you believe this is an error, please contact us at",
+    "email": "info@futureverde.com"
   }
 }

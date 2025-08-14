@@ -555,5 +555,19 @@
         }
       ]
     }
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış. Sürdürülebilir bir gelecek inşa etme yolculuğunuza devam etmenize yardımcı olalım.",
+    "goHome": "Ana Sayfaya Git",
+    "contactSupport": "Destek Al",
+    "aboutUs": "Hakkımızda",
+    "aboutUsDesc": "Misyonumuzu ve ekibimizi öğrenin",
+    "ourSolution": "Çözümümüz",
+    "ourSolutionDesc": "Sürdürülebilirlik platformumuzu keşfedin",
+    "insights": "Görüşler",
+    "insightsDesc": "En son sürdürülebilirlik görüşlerimizi okuyun",
+    "footerNote": "Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçin:",
+    "email": "info@futureverde.com"
   }
 }

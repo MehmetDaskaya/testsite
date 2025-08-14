@@ -5,7 +5,7 @@ import TestContactForm from "../components/TestContactForm";
 
 export async function generateMetadata(props) {
   const { params } = await props;
-  const { locale } = params;
+  const { locale } = await params;
   const dict = await getDictionary(locale);
 
   return {
@@ -60,14 +60,14 @@ export async function generateMetadata(props) {
 
 export default async function ContactPage(props) {
   const { params } = await props;
-  const { locale } = params;
+  const { locale } = await params;
   const dict = await getDictionary(locale);
   const { contact } = dict;
   const buttonLabel = locale === "tr" ? "E-posta Gönder" : "Send Email";
 
   return (
     <ClientLayout>
-      <main className="min-h-screen mt-32 bg-[#f0f5f0]">
+      <main className="min-h-screen  pt-32 bg-white">
         {/* Hero Section */}
         <section className="relative py-20 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-[#2d4d44] to-[#1a2e1a] text-white">
           <div className="max-w-7xl mx-auto text-center">

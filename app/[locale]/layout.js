@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export async function generateMetadata(props) {
   const { params } = await props;
-  const locale = params?.locale ?? "en";
+  const locale = (await params)?.locale ?? "en";
   const dictionary = await getDictionary(locale);
 
   const baseUrl = "https://futureverde.com"; // ensure this matches production domain
@@ -44,7 +44,7 @@ export async function generateMetadata(props) {
 
 export default async function RootLayout(props) {
   const { children, params } = await props;
-  const locale = params?.locale ?? "en";
+  const locale = (await params)?.locale ?? "en";
   const dictionary = await getDictionary(locale);
 
   return (

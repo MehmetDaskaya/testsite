@@ -2,10 +2,12 @@ import Image from "next/image";
 import { getDictionary } from "../../../lib/getDictionary";
 import ClientLayout from "../components/ClientLayout";
 import CallToAction from "../components/CallToAction";
+import sustainabilityImg from "../../assets/futureverde-sustainability.webp";
 
 // SEO metadata generation
-export async function generateMetadata({ params }) {
-  const locale = params?.locale ?? "en";
+export async function generateMetadata(props) {
+  const { params } = await props;
+  const locale = (await params)?.locale ?? "en";
   const dictionary = await import(`../../../locales/${locale}.json`);
   const dict = dictionary.default || dictionary;
 
@@ -44,8 +46,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function AboutPage({ params }) {
-  const locale = params?.locale ?? "en";
+export default async function AboutPage(props) {
+  const { params } = await props;
+  const locale = (await params)?.locale ?? "en";
   const dictionary = await getDictionary(locale);
   const { about } = dictionary;
 
@@ -73,7 +76,7 @@ export default async function AboutPage({ params }) {
               <div className="relative">
                 <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl">
                   <Image
-                    src="https://future.codobilisim.com/wp-content/uploads/elementor/thumbs/Resim2-r4k5g82mckgdgmc6csnnp5q3k6333pc25j0w0ekvmc.jpg"
+                    src={sustainabilityImg}
                     alt="Industrial facility with sustainable green technology"
                     fill
                     className="object-cover"

@@ -4,7 +4,9 @@ import { getDictionary } from "../../../lib/getDictionary";
 import CallToAction from "../components/CallToAction";
 import Image from "next/image";
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata(props) {
+  const { params } = await props;
+  const { locale } = await params;
   const dict = await getDictionary(locale);
 
   return {
@@ -47,7 +49,9 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-export default async function PartnershipsPage({ params: { locale } }) {
+export default async function PartnershipsPage(props) {
+  const { params } = await props;
+  const { locale } = await params;
   const dict = await getDictionary(locale);
   const { partnerships } = dict;
 

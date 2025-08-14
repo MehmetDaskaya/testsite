@@ -2,7 +2,9 @@ import ClientLayout from "../components/ClientLayout";
 import { getDictionary } from "../../../lib/getDictionary";
 import CallToAction from "../components/CallToAction";
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata(props) {
+  const { params } = await props;
+  const { locale } = await params;
   const dict = await getDictionary(locale);
 
   return {
@@ -45,7 +47,9 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-export default async function InsightsPage({ params: { locale } }) {
+export default async function InsightsPage(props) {
+  const { params } = await props;
+  const { locale } = await params;
   const dict = await getDictionary(locale);
   const { insights } = dict;
 
