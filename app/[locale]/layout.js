@@ -1,11 +1,9 @@
-import { Inter } from "next/font/google";
 import "../globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { getDictionary } from "../../lib/getDictionary";
 import ClientDictionaryProvider from "../../lib/ClientDictionaryProvider";
-
-const inter = Inter({ subsets: ["latin"] });
+import LangSetter from "./components/LangSetter";
 
 export async function generateMetadata(props) {
   const { params } = await props;
@@ -42,20 +40,17 @@ export async function generateMetadata(props) {
   };
 }
 
-export default async function RootLayout(props) {
+export default async function LocaleLayout(props) {
   const { children, params } = await props;
   const locale = (await params)?.locale ?? "en";
   const dictionary = await getDictionary(locale);
 
   return (
-    <html lang={locale}>
-      <body className={inter.className}>
-        <ClientDictionaryProvider dictionary={dictionary}>
-          <Navbar dictionary={dictionary} />
-          <main>{children}</main>
-          <Footer dictionary={dictionary} />
-        </ClientDictionaryProvider>
-      </body>
-    </html>
+    <ClientDictionaryProvider dictionary={dictionary}>
+      <LangSetter locale={locale} />
+      <Navbar dictionary={dictionary} />
+      <main>{children}</main>
+      <Footer dictionary={dictionary} />
+    </ClientDictionaryProvider>
   );
 }
